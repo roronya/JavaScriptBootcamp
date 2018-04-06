@@ -1,0 +1,68 @@
+body {
+  background-color: #f5f5f5;
+  font-family:'Lucida Grande', Meiryo, sans-serif;
+  font-size: 20px;
+}
+
+.todo {
+  position: relative;
+  margin: 100px;
+}
+
+.todo h1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 100;
+  top: -40px;
+  width: 100%;
+  text-align: center;
+}
+
+.todo .new-todo {
+  position: relative;
+  margin: 0;
+  width: 70%;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  padding: 5px;
+}
+
+.todo .new-todo-button {
+  margin: 0;
+  width: 20%;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.todo-list {
+  background-color: #f5f5f5;
+}
+
+.todo-view {
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.todo-view input[type=checkbox] {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.todo-view input[type=checkbox] + label {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  width: 500px;
+}

@@ -215,3 +215,10 @@ for of はiterableなものを繰り返すときの特別なfor文なのでconst
 1. 動きを与える
 1. クライアントのテストを書く
 
+## CSS
+- ブラウザでデフォルトで適用されているCSSを外すためにreset.cssを書く
+	- 一番有名なのはこれ↓
+	- https://meyerweb.com/eric/tools/css/reset/
+	- 古川さんもこれ使ってる。
+
+## JavaScriptでクライアントを作る
